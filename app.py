@@ -1,7 +1,8 @@
 # app.py
 
 import streamlit as st
-from pypmml import Model
+import pyPMML
+from pyPMML import Model
 
 # Load PMML Model
 model = Model.fromFile("test3.0.pmml")
