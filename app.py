@@ -5,7 +5,7 @@ import pyPMML
 from pyPMML import Model
 
 # Load PMML Model
-model = Model.fromFile("test3.0.pmml")
+model = Model.load("test3.0.pmml")
 
 # Create a function to predict selling price
 def predict_price(car_model, age, mileage):
